@@ -26,4 +26,4 @@ resta=num1-num2
 multiplicacion=num1*num2
 division=num1/num2
 """ %.2f = 2 decimales """
-print("la suma es %.2f \n la resta es %.2f \n la multiplicacion es %.2f \n la division es %.2f \n" % (suma, resta, multiplicacion, division))
+print("la suma es %f \n la resta es %f \n la multiplicacion es %f \n la division es %.2f \n" % (suma, resta, multiplicacion, division))
