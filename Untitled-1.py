@@ -39,7 +39,7 @@ division=num1/num2 """
 
 """ Ej 6 """
 numMinutos=int(input("ingrese los minutos \n"))
-""""En la // hago la divisiión y me quedo con la parte entera"""
+""""En la // hago la división y me quedo con la parte entera"""
 numHoras=numMinutos//60
 numMinutos=numMinutos%60
 print(" Horas: %i \n Minutos: %i" % (numHoras, numMinutos))
