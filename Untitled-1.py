@@ -3,9 +3,17 @@
 print("hola " + nombre) """
 
 """ Ej 2 """
-base=float(input("ingrese la base del triángulo \n"))
+""" base=float(input("ingrese la base del triángulo \n"))
 altura=float(input("ingrese la altura del triángulo \n"))
 area=base*altura/2
-perimetro=base*2+altura*2
+perimetro=base*2+altura*2 """
+""" %.2f = 2 decimales """
+""" print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro)) """
+
+""" Ej 3 """
+import math
+radio = float(input("ingrese el radio del circulo \n"))
+area=  math.pi*radio**2
+perimetro=2*math.pi*radio
 """ %.2f = 2 decimales """
 print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro))
