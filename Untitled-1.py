@@ -29,10 +29,17 @@ division=num1/num2 """
 """ print("la suma es %f \n la resta es %f \n la multiplicacion es %f \n la division es %.2f \n" % (suma, resta, multiplicacion, division)) """
 
 """ Ej 5 """
-palabra=input("ingrese una palabra \n")
+""" palabra=input("ingrese una palabra \n") """
 """ Primera Opción """
 """ for i in range(1000):
     print(palabra, sep="  \n") """
 
 """ Segunda Opción """
-print((palabra + " ")*1000)
+""" print((palabra + " ")*1000) """
+
+""" Ej 6 """
+numMinutos=int(input("ingrese los minutos \n"))
+""""En la // hago la divisiión y me quedo con la parte entera"""
+numHoras=numMinutos//60
+numMinutos=numMinutos%60
+print(" Horas: %i \n Minutos: %i" % (numHoras, numMinutos))
