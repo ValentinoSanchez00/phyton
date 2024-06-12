@@ -19,11 +19,16 @@ perimetro=2*math.pi*radio """
 """ print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro)) """
 
 """ Ej 4 """
-num1= float(input("ingrese el primer numero \n"))
+""" num1= float(input("ingrese el primer numero \n"))
 num2= float(input("ingrese el segundo numero \n"))
 suma=num1+num2
 resta=num1-num2
 multiplicacion=num1*num2
-division=num1/num2
+division=num1/num2 """
 """ %.2f = 2 decimales """
-print("la suma es %f \n la resta es %f \n la multiplicacion es %f \n la division es %.2f \n" % (suma, resta, multiplicacion, division))
+""" print("la suma es %f \n la resta es %f \n la multiplicacion es %f \n la division es %.2f \n" % (suma, resta, multiplicacion, division)) """
+
+""" Ej 5 """
+palabra=input("ingrese una palabra \n")
+for i in range(1000):
+    print(palabra, sep="  \n")
