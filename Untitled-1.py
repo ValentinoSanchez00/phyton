@@ -30,5 +30,9 @@ division=num1/num2 """
 
 """ Ej 5 """
 palabra=input("ingrese una palabra \n")
-for i in range(1000):
-    print(palabra, sep="  \n")
+""" Primera Opción """
+""" for i in range(1000):
+    print(palabra, sep="  \n") """
+
+""" Segunda Opción """
+print((palabra + " ")*1000)
