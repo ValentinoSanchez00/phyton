@@ -18,7 +18,7 @@ else:
     print("el numero es impar") """
 
 """ Ejercicio 3 """
-mes= int(input("ingrese un numero entero del 1 al 12 \n"))
+""" mes= int(input("ingrese el mes \n"))
 if mes == 1 or mes == 3 or mes == 5 or mes == 7 or mes == 8 or mes == 10 or mes == 12:
     print("el mes tiene 31 dias")
 elif mes == 4 or mes == 6 or mes == 9 or mes == 11:
@@ -26,4 +26,19 @@ elif mes == 4 or mes == 6 or mes == 9 or mes == 11:
 elif mes == 2:
     print("el mes tiene 28 o 29 dias")
 else:
-    print("el mes no existe")
+    print("el mes no existe") """
+
+""" Ejercicio 4 """
+user="Valentino"
+password="12345"
+
+condicion= True
+while condicion:
+    compUser=input("ingrese su usuario \n")
+    compPassword=input("ingrese su password \n")
+
+    if user == compUser and password == compPassword:
+        print("acceso autorizado")
+        condicion=False
+    else:
+        print("acceso denegado \n\n")
