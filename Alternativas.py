@@ -38,7 +38,10 @@ while condicion:
     compPassword=input("ingrese su password \n")
 
     if user == compUser and password == compPassword:
-        print("acceso autorizado")
+        print("acautorizado")
         condicion=False
     else:
         print("acceso denegado \n\n")
+
+else: 
+    print("acceso: Bienvenido")
