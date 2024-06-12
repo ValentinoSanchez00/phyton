@@ -11,9 +11,19 @@ perimetro=base*2+altura*2 """
 """ print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro)) """
 
 """ Ej 3 """
-import math
+""" import math
 radio = float(input("ingrese el radio del circulo \n"))
 area=  math.pi*radio**2
-perimetro=2*math.pi*radio
+perimetro=2*math.pi*radio """
 """ %.2f = 2 decimales """
-print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro))
+""" print("Resultado: Area=%.2f Perimetro=%.2f " % (area, perimetro)) """
+
+""" Ej 4 """
+num1= float(input("ingrese el primer numero \n"))
+num2= float(input("ingrese el segundo numero \n"))
+suma=num1+num2
+resta=num1-num2
+multiplicacion=num1*num2
+division=num1/num2
+""" %.2f = 2 decimales """
+print("la suma es %.2f \n la resta es %.2f \n la multiplicacion es %.2f \n la division es %.2f \n" % (suma, resta, multiplicacion, division))
