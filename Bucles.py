@@ -19,6 +19,20 @@ while año <= 2024:
     print(caracter) """
 
 """ Ejercicio 5 """
-for i,j in zip(range(1,4),["ana","juan","pepe"]):
+""" for i,j in zip(range(1,4),["ana","juan","pepe"]):
     print(i,j)
+ """
 
+""" Ejercicio 6 """
+num= int(input("ingrese un numero \n"))
+print("Tabla del %i" % num)
+for j in range(1,11):
+     print("%i x %i = %i" % (num, j, j*num))
+     
+"""Otra Opcion"""
+num= int(input("ingrese un numero \n"))
+print("Tabla del %i" % num)
+i=0
+while i<=10:
+    print("%i x %i = %i" % (num, i, num*i))
+    i+=1
