@@ -40,14 +40,18 @@ while i<=10:
     
 """ Ejercicio 7 """
 import random
+import os
 intentos=0
 num_aleatorio = random.randint(1,100)
+os.system("cls")
 numUser=int(input("ingrese un numero \n"))
 while numUser!=num_aleatorio:
     if numUser>num_aleatorio:
+        os.system("cls")
         print("el numero es menor")
         intentos+=1
     else:
+        os.system("cls")
         print("el numero es mayor")
         intentos+=1
     numUser=int(input("ingrese un numero \n"))
