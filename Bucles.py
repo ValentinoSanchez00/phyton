@@ -5,7 +5,15 @@
      print("%i x %i = %i" % (i, j, j*i)) """
 
 """ Ejercicio 2 """
-año=2001
+""" año=2001
 while año <= 2024:
     print("Informe del año ", año)
-    año+=1
+    año+=1 """
+
+""" Ejercicio 3 """
+""" for i in range(10):
+    print(i) """
+
+""" Ejercicio 4 """
+for caracter in "hola":
+    print(caracter)
