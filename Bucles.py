@@ -49,10 +49,10 @@ while numUser!=num_aleatorio:
     if numUser>num_aleatorio:
         os.system("cls")
         print("el numero es menor")
-        intentos+=1
+       
     else:
         os.system("cls")
         print("el numero es mayor")
-        intentos+=1
+    intentos+=1    
     numUser=int(input("ingrese un numero \n"))
 print("acertaste, numero de intentos %i" % intentos)
