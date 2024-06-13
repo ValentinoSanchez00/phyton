@@ -1,3 +1,4 @@
+import math
 """ Ejercicio 1 """
 """ for i in range(1,11):
     print("Tabla del %i" % i)
@@ -24,15 +25,30 @@ while año <= 2024:
  """
 
 """ Ejercicio 6 """
-num= int(input("ingrese un numero \n"))
+""" num= int(input("ingrese un numero \n"))
 print("Tabla del %i" % num)
 for j in range(1,11):
-     print("%i x %i = %i" % (num, j, j*num))
+     print("%i x %i = %i" % (num, j, j*num)) """
      
 """Otra Opcion"""
-num= int(input("ingrese un numero \n"))
+""" num= int(input("ingrese un numero \n"))
 print("Tabla del %i" % num)
 i=0
 while i<=10:
     print("%i x %i = %i" % (num, i, num*i))
-    i+=1
+    i+=1 """
+    
+""" Ejercicio 7 """
+import random
+intentos=0
+num_aleatorio = random.randint(1,100)
+numUser=int(input("ingrese un numero \n"))
+while numUser!=num_aleatorio:
+    if numUser>num_aleatorio:
+        print("el numero es menor")
+        intentos+=1
+    else:
+        print("el numero es mayor")
+        intentos+=1
+    numUser=int(input("ingrese un numero \n"))
+print("acertaste, numero de intentos %i" % intentos)
