@@ -15,5 +15,10 @@ while año <= 2024:
     print(i) """
 
 """ Ejercicio 4 """
-for caracter in "hola":
-    print(caracter)
+""" for caracter in "hola":
+    print(caracter) """
+
+""" Ejercicio 5 """
+for i,j in zip(range(1,4),["ana","juan","pepe"]):
+    print(i,j)
+
