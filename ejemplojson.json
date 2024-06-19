@@ -1,0 +1,96 @@
+{
+    "clase": {
+        "alumno": [
+            {
+                "nombre": "juan",
+                "apellidos": "sanchez",
+                "direccion": {
+                    "calle": "av. siempre viva",
+                    "numero": 123
+                },
+                "notas": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "nombre": "ana",
+                "apellidos": "lopez",
+                "direccion": {
+                    "calle": "av. siempre viva",
+                    "numero": 123
+                },
+                "notas": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "nombre": "pedro",
+                "apellidos": "gonzalez",
+                "direccion": {
+                    "calle": "av. siempre viva",
+                    "numero": 123
+                },
+                "notas": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "nombre": "Valentino",
+                "apellidos": "Sanchez",
+                "direccion": {
+                    "calle": "av. siempre viva",
+                    "numero": 123
+                },
+                "notas": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "nombre": "Lucas",
+                "apellidos": "Sarachu",
+                "direccion": {
+                    "calle": "Madrid",
+                    "numero": 123
+                },
+                "notas": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            {
+                "nombre": "Angie",
+                "apellidos": "Sanchez",
+                "direccion": {
+                    "calle": "madrid",
+                    "numero": 123
+                },
+                "notas": [
+                    2,
+                    5,
+                    8,
+                    9,
+                    9
+                ]
+            }
+        ]
+    }
+}
