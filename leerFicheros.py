@@ -38,11 +38,11 @@ for linea in contenido:
 
 fichero=open("Ejemplo2csv.csv","w")
 contenido=csv.writer(fichero,delimiter=";")
-contenido.writerow(["nombre","edad, genero"])  
-for i in range(10):
+contenido.writerow(["nombre","edad", "genero"])  
+for i in range(5):
     nombre=input("ingrese un nombre \n")
     edad=int(input("ingrese una edad \n"))
     genero=input("ingrese un genero \n")
-    contenido.writerow([nombre,edad,genero])
+    contenido.writerow([nombre,edad,genero]) 
       
     
